@@ -12,10 +12,11 @@
 ## 🔥 News
 
 - May 7, 2026: 🤗 We release the project page of Syn4D!
+- June 30, 2026: 🤗 We release the Syn4D dataset and visualization code!
 
 ## 📦 Coming Soon
 
-The **dataset**, **rendering code**, and **dataloader** will be released soon. Stay tuned!
+The **rendering code** and **dataloader** will be released soon. Stay tuned!
 
 ## 🔗 BibTeX
 

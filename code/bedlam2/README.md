@@ -174,6 +174,19 @@ silent. The clothing download should produce:
 METADATA_ROOT/b2_assetdata_download/clothing/npz/b2_clothing_npz_XXX.tar
 ```
 
+To extract the clothing NPZ assets, run:
+
+```bash
+cd b2_assetdata_download/clothing/npz
+for archive in *.tar; do
+  # Extract the folder name by removing the '.tar' extension
+  dir="${archive%.tar}"
+  
+  # Create the folder and extract into it
+  mkdir -p "$dir" && tar -xvf "$archive" -C "$dir"
+done
+```
+
 Important distinction:
 
 - `b2_motions_npz_training/motions_npz_training/*.npz` is required for the

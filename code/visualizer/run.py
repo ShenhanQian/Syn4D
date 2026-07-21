@@ -183,7 +183,7 @@ def parse_args():
     parser.add_argument(
         "--fallback-metadata-root",
         type=str,
-        default="/mnt/d/data_objs/obj_glbs",
+        default=None,
         help="Fallback metadata root used when files are missing from --metadata-root. Use an empty string to disable.",
     )
     parser.add_argument(

@@ -1,0 +1,8 @@
+# Host Python requirements for the batch drivers.
+#
+# The batch scripts use only the Python standard library. Blender normally ships
+# its own Python and NumPy, which are used by the Blender worker scripts.
+#
+# Install this file only if your Blender Python is missing NumPy:
+#   "<path-to-blender-python>" -m pip install -r requirements.txt
+numpy>=1.23
